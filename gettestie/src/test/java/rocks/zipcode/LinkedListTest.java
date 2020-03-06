@@ -23,10 +23,10 @@ public class LinkedListTest {
     public void TestLinkedListGetLast() { Assert.assertEquals("Zulu", list.getLast()); }
 
     @Test
-    public void TestLinkedListClear() { Assert.assertTrue(list.contains("X-ray")); }
+    public void TestLinkedListContains() { Assert.assertTrue(list.contains("X-ray")); }
 
     @Test
-    public void TestLinkedListSet() { Assert.assertEquals("Zulu", list.set(2,"1")); }
+    public void TestLinkedListSet() { Assert.assertEquals("Zulu", list.set(2,"Alpha")); }
 
     @Test
     public void TestLinkedListPeek() { Assert.assertEquals("X-ray",list.peek()); }
