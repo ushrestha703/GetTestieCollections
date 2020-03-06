@@ -46,7 +46,7 @@ public class VectorTest {
         Assert.assertEquals("Beryllium", v.get(3));
     }
     @Test
-    public void TestVectorLastIndex(){ // Returns the index of the last occurrence of the specified element in this vector, or -1 if this vector does not contain the element.
+    public void TestVectorLastIndex(){
         Vector v = new Vector();
         v.add("Hydrogen");
         v.add("Helium");
