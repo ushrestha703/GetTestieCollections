@@ -7,10 +7,11 @@ import java.util.TreeSet;
 
 public class TreeSetTest {
 
-    TreeSet<String> test = new TreeSet<String>();
+    TreeSet<String> test;
 
     @org.junit.Before
     public void setUp() throws Exception {
+        test = new TreeSet<String>();
         test.add("A");
         test.add("B");
         test.add("C");

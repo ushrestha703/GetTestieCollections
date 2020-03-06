@@ -5,11 +5,14 @@ import org.junit.Test;
 import java.util.Vector;
 
 public class VectorTest {
-    private Vector v = new Vector();
-    private Vector v_clone = new Vector();
+    private Vector v;
+    private Vector v_clone;
 
     @org.junit.Before
-    public void setUp() throws Exception { }
+    public void setUp() throws Exception {
+        v = new Vector();
+        v_clone = new Vector();
+    }
 
     @org.junit.After
     public void tearDown() throws Exception { }

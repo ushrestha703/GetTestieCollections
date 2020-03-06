@@ -6,10 +6,11 @@ import java.util.HashSet;
 
 public class HashSetTest {
 
-    HashSet<String> set = new HashSet<String>();
+    HashSet<String> set;
 
     @org.junit.Before
     public void setUp() throws Exception {
+        set = new HashSet<String>();
         set.add("Life");
         set.add("Is");
         set.add("Beautiful");
